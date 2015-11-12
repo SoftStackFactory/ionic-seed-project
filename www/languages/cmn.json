@@ -1,0 +1,29 @@
+{
+    "GENERAL" : {
+        "OK" : "OK",
+        "CANCEL": "CANCEL",
+        "DONDE": "DONE",
+        "YES": "YES",
+        "NO": "NO"
+    },
+    "SIDE_MENU_CTRL" : {
+        "ITEM1" : "项目 1",
+        "ITEM2" : "项目 2",
+        "ITEM3" : "项目 3",
+        "ITEM4" : "项目 4"
+    },
+    "LOGIN_CTRL" : {
+        "NAV_BAR_TITLE": "应用",
+        "USERNAME_FIELD": "用户名",
+        "PASSWORD_FIELD": "密码",
+        "SUBMIT_BUTTON": "登录",
+        "LOGIN_FAILED_TITLE" : "误",
+        "LOGIN_FAILED_MESSAGE": "登录失败",
+        "LOGIN_SUCCESS_TITLE": "好消息!",
+        "LOGIN_SUCCESS_MESSAGE": "现在，您已经登录",
+        "UPDATE_TITLE_MESSAGE": "Update Alert",
+        "UPDATE_BODY_MESSAGE": "An update is ready for this application. Do you want to update now?",
+        "UPDATE_YES_BUTTON": "@:GENERAL.YES",
+        "UPDATE_NO_BUTTON": "@:GENERAL.NO"
+    }
+}

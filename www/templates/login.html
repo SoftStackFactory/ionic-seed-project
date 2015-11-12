@@ -1,0 +1,19 @@
+<ion-view view-title="{{'LOGIN_CTRL.NAV_BAR_TITLE' | translate}}" hide-nav-bar="false">
+  <ion-content>
+    <form name="loginForm" novalidate ng-submit="doLogin(loginForm)">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">{{'LOGIN_CTRL.USERNAME_FIELD' | translate}}</span>
+          <input type="text" ng-model="loginData.username" required>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">{{'LOGIN_CTRL.PASSWORD_FIELD' | translate}}</span>
+          <input type="password" ng-model="loginData.password" required>
+        </label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit" ion-track-tap="Login-tap" ion-track-data="{ mockData: 'User tapped Login'}">{{'LOGIN_CTRL.SUBMIT_BUTTON' | translate}}</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>

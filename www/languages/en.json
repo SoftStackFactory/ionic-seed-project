@@ -1,0 +1,29 @@
+{
+    "GENERAL" : {
+        "OK" : "OK",
+        "CANCEL": "CANCEL",
+        "DONDE": "DONE",
+        "YES": "YES",
+        "NO": "NO"
+    },
+    "SIDE_MENU_CTRL" : {
+        "ITEM1" : "Item 1",
+        "ITEM2" : "Item 2",
+        "ITEM3" : "Item 3",
+        "ITEM4" : "Item 4"
+    },
+    "LOGIN_CTRL" : {
+        "NAV_BAR_TITLE": "Seed Project",
+        "USERNAME_FIELD": "Username",
+        "PASSWORD_FIELD": "Password",
+        "SUBMIT_BUTTON": "Login",
+        "LOGIN_FAILED_TITLE" : "Error",
+        "LOGIN_FAILED_MESSAGE": "Login Failed",
+        "LOGIN_SUCCESS_TITLE": "Good News!",
+        "LOGIN_SUCCESS_MESSAGE": "You are now logged in",
+        "UPDATE_TITLE_MESSAGE": "Update Alert",
+        "UPDATE_BODY_MESSAGE": "An update is ready for this application. Do you want to update now?",
+        "UPDATE_YES_BUTTON": "@:GENERAL.YES",
+        "UPDATE_NO_BUTTON": "@:GENERAL.NO"
+    }
+}

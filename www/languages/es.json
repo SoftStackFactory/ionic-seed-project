@@ -1,0 +1,29 @@
+{
+    "GENERAL" : {
+        "OK" : "OK",
+        "CANCEL": "CANCELAR",
+        "DONDE": "HECHO",
+        "YES": "SI",
+        "NO": "NO"
+    },
+    "SIDE_MENU_CTRL" : {
+        "ITEM1" : "Artículo 1",
+        "ITEM2" : "Artículo 2",
+        "ITEM3" : "Artículo 3",
+        "ITEM4" : "Artículo 4"
+    },
+    "LOGIN_CTRL" : {
+        "NAV_BAR_TITLE": "Mi App",
+        "USERNAME_FIELD": "Nombre de usuario",
+        "PASSWORD_FIELD": "Contraseña",
+        "SUBMIT_BUTTON": "Iniciar sesión",
+        "LOGIN_FAILED_TITLE" : "Error",
+        "LOGIN_FAILED_MESSAGE": "Inicio de sesión fallido",
+        "LOGIN_SUCCESS_TITLE": "Enhorabuena!",
+        "LOGIN_SUCCESS_MESSAGE": "Inicio de sesión correcto",
+        "UPDATE_TITLE_MESSAGE": "Alerta de actualización",
+        "UPDATE_BODY_MESSAGE": "Una nueva actualización está disponible. Quieres actualizar ahora?",
+        "UPDATE_YES_BUTTON": "@:GENERAL.YES",
+        "UPDATE_NO_BUTTON": "@:GENERAL.NO",
+    }
+}
