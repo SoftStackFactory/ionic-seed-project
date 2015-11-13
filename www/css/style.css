@@ -7,7 +7,7 @@ h3 {
     color:white;
 }
 
-.ion-navicon
+/*.ion-navicon
 {
     box-shadow: 0px 0px 5px #fff;
     -webkit-animation: glow 3s ease-in-out infinite;
@@ -17,4 +17,4 @@ h3 {
 @-webkit-keyframes glow 
 {
   50% { box-shadow: 0 0 20px #fff; }
-}
+}*/

@@ -24,6 +24,6 @@
         "UPDATE_TITLE_MESSAGE": "Alerta de actualización",
         "UPDATE_BODY_MESSAGE": "Una nueva actualización está disponible. Quieres actualizar ahora?",
         "UPDATE_YES_BUTTON": "@:GENERAL.YES",
-        "UPDATE_NO_BUTTON": "@:GENERAL.NO",
+        "UPDATE_NO_BUTTON": "@:GENERAL.NO"
     }
 }
