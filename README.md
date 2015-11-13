@@ -18,3 +18,5 @@ Includes:
     
 -Cordova plugin that excepts access to S3 from App Transport Security (iOS9)
     -Git: https://github.com/Collaborne/cordova-plugin-except-aws-s3-from-ats
+    
+After downloading, do npm install, to install all dependencies.

@@ -45,6 +45,7 @@ angular.module('starter', ['ionic','ionic.service.core', 'ionic.service.analytic
       'es_*': LANGUAGE_CODES.SPANISH,
       'zh_*': LANGUAGE_CODES.CHINESE
     })
+    
     //determinePreferredLanguage tries to look at the locale and determine the language. 
     .determinePreferredLanguage();
     //To set the language, uncomment the next line of code and comment "determinePreferredLanguage"

@@ -2,7 +2,7 @@
     "GENERAL" : {
         "OK" : "OK",
         "CANCEL": "CANCEL",
-        "DONDE": "DONE",
+        "DONE": "DONE",
         "YES": "YES",
         "NO": "NO"
     },

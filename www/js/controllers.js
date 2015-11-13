@@ -18,13 +18,14 @@ angular.module('starter.controllers', [])
 function($scope, SSFAlertsService, $translate, $window, $state, $ionicHistory, $ionicAnalytics) {
   
   var deploy = new Ionic.Deploy();
-  
+  $translate.use('es');
   //Deploy check() checks for updates
   deploy.check().then(function(hasUpdate) {
     console.log('Ionic Deploy: Update available: ' + hasUpdate);
     if(hasUpdate) {
       $translate(['LOGIN_CTRL.UPDATE_TITLE_MESSAGE','LOGIN_CTRL.UPDATE_BODY_MESSAGE','LOGIN_CTRL.UPDATE_YES_BUTTON','LOGIN_CTRL.UPDATE_NO_BUTTON']).
       then(function(translation){
+   
         SSFAlertsService.showConfirm(translation["LOGIN_CTRL.UPDATE_TITLE_MESSAGE"], translation["LOGIN_CTRL.UPDATE_BODY_MESSAGE"],
                               translation["LOGIN_CTRL.UPDATE_YES_BUTTON"],translation["LOGIN_CTRL.UPDATE_NO_BUTTON"])
         .then(function(response) {
