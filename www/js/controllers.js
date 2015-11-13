@@ -18,7 +18,7 @@ angular.module('starter.controllers', [])
 function($scope, SSFAlertsService, $translate, $window, $state, $ionicHistory, $ionicAnalytics) {
   
   var deploy = new Ionic.Deploy();
-  $translate.use('es');
+  
   //Deploy check() checks for updates
   deploy.check().then(function(hasUpdate) {
     console.log('Ionic Deploy: Update available: ' + hasUpdate);
